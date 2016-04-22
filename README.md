@@ -1,6 +1,7 @@
 Reactinator
 ==========================
 ![](image.png)
+
 This is an iOS app that lets you react with 10 different and hilarious sounds!
 This repository contains the Reactinator project that can be opened in XCode and instantly run on a simulator or a device.
 
