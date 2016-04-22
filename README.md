@@ -18,7 +18,7 @@ This repository contains the Reactinator project that can be opened in XCode and
 
 ## Issues
 
-There are no known bugs.
+There are no known bugs.  Feedback and requests are always welcome!
 
 ## Licensing
 
