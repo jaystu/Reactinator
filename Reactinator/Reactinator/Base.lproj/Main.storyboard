@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Reactinator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-9l-xeY" userLabel="Logo">
+                                <rect key="frame" x="20" y="28" width="560" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cn7-9l-xeY" secondAttribute="height" multiplier="35:8" id="MPT-7F-jfr"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxf-34-Moa">
+                                <rect key="frame" x="37" y="164" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wxf-34-Moa" secondAttribute="height" multiplier="1:1" id="bAU-39-aKy"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="mmm_image">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mmm_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hlc-ln-ScT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RN1-ZT-ccd">
+                                <rect key="frame" x="37" y="495" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RN1-ZT-ccd" secondAttribute="height" multiplier="1:1" id="rqG-Bp-Hwl"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="evil_image"/>
+                                <connections>
+                                    <action selector="maniacal_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dBu-AJ-PRK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsi-kc-TJo">
+                                <rect key="frame" x="37" y="330" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hsi-kc-TJo" secondAttribute="height" multiplier="1:1" id="KMi-X3-4ZY"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="noo_image"/>
+                                <connections>
+                                    <action selector="noo_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1vv-k8-nu5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1B-u2-RSD">
+                                <rect key="frame" x="32" y="412" width="91" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="c1B-u2-RSD" secondAttribute="height" multiplier="91:80" id="iKd-jV-rbx"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="boo_image"/>
+                                <connections>
+                                    <action selector="boo_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T63-Gc-fCq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gd-Xd-8Kp">
+                                <rect key="frame" x="37" y="247" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1gd-Xd-8Kp" secondAttribute="height" multiplier="1:1" id="zj1-TV-dCf"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="snore_image">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="snore_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ufi-Hg-uEf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIN-Al-aAE">
+                                <rect key="frame" x="476" y="495" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TIN-Al-aAE" secondAttribute="height" multiplier="1:1" id="Bxm-NM-mMw"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="creep_image">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="whistle_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4b8-V5-P3f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dd-Gz-3EY">
+                                <rect key="frame" x="476" y="247" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7dd-Gz-3EY" secondAttribute="height" multiplier="1:1" id="vTU-Ly-49s"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="ahh_image"/>
+                                <connections>
+                                    <action selector="ahh_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PNy-Wt-aUE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yx8-9J-XG1">
+                                <rect key="frame" x="476" y="330" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Yx8-9J-XG1" secondAttribute="height" multiplier="1:1" id="Z6h-jA-wnS"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="aww_image"/>
+                                <connections>
+                                    <action selector="aww_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aFT-bB-X6D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZl-8W-A7k">
+                                <rect key="frame" x="476" y="164" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xZl-8W-A7k" secondAttribute="height" multiplier="1:1" id="IvW-3k-gGx"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="yay_image"/>
+                                <connections>
+                                    <action selector="yay_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jY3-Ac-HJL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiM-um-0pa">
+                                <rect key="frame" x="476" y="412" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fiM-um-0pa" secondAttribute="height" multiplier="1:1" id="3aJ-TM-cKi"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="sad_image"/>
+                                <connections>
+                                    <action selector="sad_sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NUV-gq-mgy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hsi-kc-TJo" firstAttribute="top" secondItem="1gd-Xd-8Kp" secondAttribute="bottom" constant="3" id="2C2-mO-gL8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7dd-Gz-3EY" secondAttribute="trailing" constant="24" id="57r-1a-dcF"/>
+                            <constraint firstItem="1gd-Xd-8Kp" firstAttribute="top" secondItem="wxf-34-Moa" secondAttribute="bottom" constant="3" id="5Rq-6v-2kN"/>
+                            <constraint firstItem="wxf-34-Moa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="6be-FD-agm"/>
+                            <constraint firstItem="cn7-9l-xeY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9tz-YR-u33"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TIN-Al-aAE" secondAttribute="bottom" constant="55" id="BeC-Co-p2a"/>
+                            <constraint firstItem="RN1-ZT-ccd" firstAttribute="top" secondItem="c1B-u2-RSD" secondAttribute="bottom" constant="3" id="HZ6-9c-JWF"/>
+                            <constraint firstItem="cn7-9l-xeY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="IDR-IN-QcV"/>
+                            <constraint firstItem="c1B-u2-RSD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="L5V-gD-86r"/>
+                            <constraint firstItem="7dd-Gz-3EY" firstAttribute="top" secondItem="xZl-8W-A7k" secondAttribute="bottom" constant="3" id="Mdu-6w-w4p"/>
+                            <constraint firstItem="c1B-u2-RSD" firstAttribute="top" secondItem="hsi-kc-TJo" secondAttribute="bottom" constant="2" id="OgJ-Qo-Ajv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yx8-9J-XG1" secondAttribute="trailing" constant="24" id="Pju-ww-QiK"/>
+                            <constraint firstItem="cn7-9l-xeY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="V2O-G3-BkB"/>
+                            <constraint firstItem="TIN-Al-aAE" firstAttribute="top" secondItem="fiM-um-0pa" secondAttribute="bottom" constant="3" id="W7F-pG-eIi"/>
+                            <constraint firstItem="Yx8-9J-XG1" firstAttribute="top" secondItem="7dd-Gz-3EY" secondAttribute="bottom" constant="3" id="aIS-oZ-dTd"/>
+                            <constraint firstItem="1gd-Xd-8Kp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="dfN-94-HPS"/>
+                            <constraint firstItem="fiM-um-0pa" firstAttribute="top" secondItem="Yx8-9J-XG1" secondAttribute="bottom" constant="2" id="eL4-tS-bxp"/>
+                            <constraint firstItem="RN1-ZT-ccd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="f59-3F-Ys3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TIN-Al-aAE" secondAttribute="trailing" constant="24" id="hzs-eY-ywE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xZl-8W-A7k" secondAttribute="trailing" constant="24" id="m3e-LB-elL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fiM-um-0pa" secondAttribute="trailing" constant="24" id="slZ-i0-5S9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RN1-ZT-ccd" secondAttribute="bottom" constant="60" id="tAo-yE-Bae"/>
+                            <constraint firstItem="hsi-kc-TJo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="zRl-Hh-SZh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logo_image" destination="cn7-9l-xeY" id="Ga7-04-u1W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="305"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ahh_image" width="73" height="69"/>
+        <image name="aww_image" width="75" height="71"/>
+        <image name="boo_image" width="79" height="69"/>
+        <image name="creep_image" width="72" height="67"/>
+        <image name="evil_image" width="71" height="69"/>
+        <image name="logo" width="629" height="107"/>
+        <image name="mmm_image" width="72" height="70"/>
+        <image name="noo_image" width="72" height="72"/>
+        <image name="sad_image" width="74" height="73"/>
+        <image name="snore_image" width="70" height="67"/>
+        <image name="yay_image" width="72" height="68"/>
+    </resources>
+</document>
